@@ -1,0 +1,49 @@
+--create database a1
+--use a1
+--create table movies(
+--mid int primary key,
+--moviename varchar(20),
+--genre varchar(20)
+--)
+--create table fooditems(
+--foodid int primary key,
+--food varchar(20)
+--)
+--create table client(
+--id int primary key identity,
+--name varchar(20),
+--age int,
+--occupation varchar(10),
+--hobbies varchar(10),
+--mid int foreign key references movies(mid),
+--foodid int foreign key references fooditems(foodid)
+--)
+--insert into movies(mid,moviename,genre)values
+--(1,'v','thriller'),
+--(2,'kalki','drama'),
+--(3,'drona','horror'),
+--(4,'pushpa','drama'),
+--(5,'thupaki','drama')
+--insert into fooditems(foodid,food)
+--values
+--(1,'biriyani'),
+--(2,'chanabatura'),
+--(3,'panipori'),
+--(4,'moongdal'),
+--(5,'fishcurry')
+--insert into client(name,age,occupation,hobbies,mid,foodid)
+--values
+--('sonu',22,'ase','cycling',3,3),
+--('kichu',25,'artist','reading',4,1),
+--('geethu',23,'ase','cooking',5,3),
+--('ammu',24,'ae','fd',2,4)
+--select * from client
+---------------------------------
+--1 question
+-------------------
+--select max(hobbies)
+--from client
+------------------------------
+--2--
+--select name from client where age>22
+-----------------------

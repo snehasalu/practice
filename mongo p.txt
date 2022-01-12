@@ -1,0 +1,9 @@
+db.client.insertMany([
+{ "name" : "sam","age":22,"job":'ase',"hobby":'cycling'},
+{'name':'sonu',"age":22,"job":'ase',"hobby":'cycling'},
+{"name":'kichu',"age":25,"job":'artist',"hobby":'reading'},
+{"name":'geethu',"age":23,"job":'ase',"hobby":'cooking'},
+{"name":'ammu',"age":24,"job":'ae',"hobby":'fd'}])
+
+
+db.client.find().sort({_id:-1}).limit(1);

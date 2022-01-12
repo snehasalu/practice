@@ -1,0 +1,16 @@
+﻿REST API DESIGN
+FUNCTION
+	Searching a client
+	Creating a client
+	UPDATE DETAILS
+	delete
+	url
+	https://amigos.com/clients/1
+	https://amigos.com/clients
+	https://amigos.com/{id}
+	https://amigos.com/{id}
+	method
+	GET
+	POST
+	PUT
+	DELETE
